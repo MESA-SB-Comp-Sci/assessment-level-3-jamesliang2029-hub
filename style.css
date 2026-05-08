@@ -5,3 +5,14 @@
 }
 
 /* write all your rules below */
+#heading {
+    border: 10vw solid red;
+    padding: 10vw solid pink;
+    margin: 0;
+    width: 50vw;
+}
+
+box-1 {
+    width: 100vw;
+    border:30px solid aqua;
+}
