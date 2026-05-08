@@ -6,13 +6,18 @@
 
 /* write all your rules below */
 #heading {
-    border: 10vw solid red;
-    padding: 10vw solid pink;
-    margin: 0;
+    display:flex;
+    border: 20px solid red;
+    background-color: pink;
     width: 50vw;
+    height: 20vh
 }
 
-box-1 {
+.box-1 {
+    display:block;
     width: 100vw;
-    border:30px solid aqua;
+    height: 30vh;
+    background-color: aqua;
+    text-align:center;
+    text-justify:center;
 }
