@@ -5,19 +5,49 @@
 }
 
 /* write all your rules below */
+
 #heading {
     display:flex;
-    border: 20px solid red;
+    border: 10px solid red;
     background-color: pink;
-    width: 50vw;
-    height: 20vh
+    width: 75vw;
+    height: 10vh;
+    justify-content: flex-start;
+    margin:2%;
+}
+
+p{
+    color:purple;
+}
+
+.text-1{
+    color:blue;
+}
+
+#text-2{
+    color:green;
+}
+
+.box-text{
+    color:black;
 }
 
 .box-1 {
-    display:block;
+    display:flex;
     width: 100vw;
     height: 30vh;
     background-color: aqua;
     text-align:center;
-    text-justify:center;
+    text-justify:flex-start;
+    align-items:center;
+    justify-content:flex-start;
+    padding:10vw;
+}
+
+#box-2 {
+    width: 40vw;
+    height: 15vh;
+    border: 10px solid pink;
+    background-color: yellow;
+    margin: 2vw;
 }
